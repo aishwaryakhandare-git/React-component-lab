@@ -1,0 +1,35 @@
+import "./index.css"
+function App(){
+
+    return(
+
+<div className = "whole-page">
+
+    <div className="card">
+
+    <div className = "first-part">
+
+        <h2>Aishwarya Khandare</h2>
+
+        <p>Full Stack Developer</p>
+
+    </div>
+
+    <div className = "second-part">
+
+        <p>.React  .Python  .Javasript  .HTML</p>
+
+    </div>
+
+    <div className = "button-part">
+
+        <button>Folow</button>
+        
+        <button>Message</button>
+
+    </div>
+
+</div>
+
+</div>
+    )}
