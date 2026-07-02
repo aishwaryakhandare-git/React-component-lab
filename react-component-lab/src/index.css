@@ -38,3 +38,7 @@
 .nav-links a:hover{
   color: rgb(5, 78, 39);
 }
+
+.hero{
+    display: flex;
+}
