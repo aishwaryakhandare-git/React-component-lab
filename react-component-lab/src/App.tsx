@@ -22,9 +22,12 @@ function App() {
     
     </nav>
    
-  <div className="whole-page">
+  <div className="hero">
 
-    <div className="card">
+    <div className="hero-content">
+
+    <div className="hero-image"></div>
+    
     <div className="header-card">
 
     <h2>SmartAI</h2>
@@ -36,7 +39,7 @@ function App() {
     <div className="content-card">
 
       <p>Learn React, TypeScript, CSS and Backend
-development by building real-world projects.</p>
+      development by building real-world projects.</p>
 
     </div>
 
