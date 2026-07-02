@@ -19,9 +19,9 @@ function App() {
 
         <a href="#">Login</a>
 
-    </div>
+     </div>
     
-    </nav>
+  </nav>
    
   <div className="hero">
 

@@ -1,3 +1,13 @@
+.entire{
+    min-height:100vh;
+
+    background: linear-gradient(
+        135deg,
+        #bacfe3 0%,
+        #ffffff 100%
+    );
+}
+
 .whole-page{
   height: 100vh;
   display: flex;
@@ -7,7 +17,9 @@
 
 .logo{
   font-family: 'Courier New', Courier, monospace;
-  color: blue;
+  color: #111827;
+  font-size: 38px;
+    font-weight:700;
 }
 
 .logo span{
@@ -15,10 +27,16 @@
 }
 
 .nav-bar{
-  display: flex;
-  justify-content:space-between;
-  padding: 20px 50px;
-  align-items:center;
+    width:90%;
+    max-width:1400px;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:30px 0;
 }
 
 .nav-links{
@@ -40,15 +58,36 @@
 }
 
 .hero{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
+
+    width:90%;
+    max-width:1400px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    min-height:70vh;
+    
 }
 
+.hero-image{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex:1;
+}
 
 .hero-image img{
-    width: 400px;
-    height: 400px;
+
+    width:500px;
+
+    transition:.4s;
 }
 
 .header-card{
@@ -89,3 +128,4 @@
     border: 2px solid #020705;
     cursor: pointer;
 }
+
