@@ -50,3 +50,19 @@
     width: 400px;
     height: 400px;
 }
+
+.header-card{
+  color: rgb(39, 8, 177);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.header-card h4{
+  color: #0E9F6E;
+  max-width: 700px;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+}

@@ -29,9 +29,9 @@ function App() {
 
     <div className="header-card">
 
-    <h2>SmartAI</h2>
+    <h1>SmartAI</h1>
 
-    <p>Build Modern Web Applications.</p>
+    <h4>Build Modern Web Applications.</h4>
 
     </div>
 
