@@ -42,3 +42,8 @@
 .hero{
     display: flex;
 }
+
+
+.hero-image{
+    size: 10px;
+}

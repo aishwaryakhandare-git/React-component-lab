@@ -1,4 +1,5 @@
 import "./index.css";
+import hero from "./assets/hero.png";
 
 function App() {
   return (
@@ -26,8 +27,6 @@ function App() {
 
     <div className="hero-content">
 
-    <div className="hero-image"></div>
-    
     <div className="header-card">
 
     <h2>SmartAI</h2>
@@ -52,8 +51,11 @@ function App() {
 
     </div>
 
+    <div className="hero-image">
+      <img src={hero} alt="AI Robot" />
+    </div>
+    
   </div>
-
   </div>
   );
 }
