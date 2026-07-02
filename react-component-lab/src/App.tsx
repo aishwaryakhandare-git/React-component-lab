@@ -6,7 +6,7 @@ function App() {
 
   <nav className="nav-bar">
     
-    <h1  className="logo">Smart</h1>
+    <h1  className="logo">Smart <span>AI</span></h1>
     
      <div className="nav-links">
 
@@ -27,23 +27,24 @@ function App() {
     <div className="card">
     <div className="header-card">
 
-    <h2>Aishwarya Khandare</h2>
+    <h2>SmartAI</h2>
 
-    <p>Full Stack Web Developer</p>
+    <p>Build Modern Web Applications.</p>
 
     </div>
 
-    <div className="skills-card">
+    <div className="content-card">
 
-      <p>Python  React.js  Typescript</p>
+      <p>Learn React, TypeScript, CSS and Backend
+development by building real-world projects.</p>
 
     </div>
 
     <div className="buttons">
 
-      <button>Follow</button>
+      <button>Start Learning</button>
 
-      <button>Message</button>
+      <button>View Projects</button>
     </div>
 
     </div>

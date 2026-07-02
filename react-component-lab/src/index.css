@@ -5,6 +5,36 @@
   align-items: center;
 }
 
+.logo{
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+}
+
+.logo span{
+  color: #0E9F6E;
+}
+
 .nav-bar{
   display: flex;
+  justify-content:space-between;
+  padding: 20px 50px;
+  align-items:center;
+}
+
+.nav-links{
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: #0E9F6E;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Courier New', Courier, monospace;
+   transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+  color: rgb(5, 78, 39);
 }
